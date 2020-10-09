@@ -1,4 +1,5 @@
 import React from 'react';
+import mather from 'math-expression-evaluator'
 
 class App extends React.Component {
   state = {
@@ -48,7 +49,7 @@ class App extends React.Component {
   displayResult = () => {
     let result = null
     try {
-      result = eval(this.state.screenData)
+      result = mather.eval(this.state.screenData)
     }
     catch (err) {
       result = "Invalid Expression"
