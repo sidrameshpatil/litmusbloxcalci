@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body{
+  font-size:80px;
+  background-color:#12130f;
+  /* font-family: 'Montserrat', sans-serif; */
+   
+} 
+
+
+ 
+/*This styles all the buttons inside the app*/
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  border: 0px;
+ }
+
+
+ /*This is the styling for just the input field which is the screen*/
+ input{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+ }
+
+
+ /*This style for the whole app*/
+ .calculator{
+   margin-top: 30px;
+  /* border: 4px solid goldenrod; */
+  width:100%;
+  height: 350px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #12130f;
+  border-radius: 10px;
+  /* font-family: 'Montserrat', sans-serif; */
+ font-size: 2px;
+ }
+
+
+ /*This style for the screen where the input is being entered and result is displayed*/
+ #screen{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  height: 100px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #12130f;
+  color: white;
+  border: 0px;
+  font-size: 40px;
+  color: springgreen;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+/*This is the number button container*/
+.button_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 400px;
+  margin: auto;
+}
+
+
+/*This styles all the numbered buttons*/
+.numberButton{
+height: 50px;
+margin: 4px;
+border-radius: 5px;
+background-color: goldenrod;
+}
+
+
+/*Number button effect when hovered over*/
+.numberButton:hover{
+  background-color:#514717;
+  color: white;
+  font-size: 30px;
+  transition: 0.2s;
+}
+
+/*Number button effect when pressed*/
+.numberButton:active{
+  background-color:#827115;
+  transform: translateY(5px);
+  transition: 0.1s;
+}
+
+
+/*Styles for buttons other than number button*/
+.otherButtons Button{
+  margin: auto 4px;  
+  height: 50px;
+  border-radius: 5px;
+  background-color: goldenrod;
+}
+
+
+/*Container of buttons other than numbered buttons*/
+.otherButtons{
+  display: flex;
+  margin: 4px auto;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  
+}
+
+/*The effevt of other buttons when hovered over*/
+.otherButtons Button:hover{
+  background-color:#514717;
+  color: powderblue;
+   transform: translateX(-2px);
+  transition: 0.2s;
+}
+
+
+
+
+
+
+
+ 
+
+ 
