@@ -1,0 +1,10 @@
+-->After extracting, open the Terminal or cmd and move to the project folder 
+	(the folder where files like app.js, index.css etc are  present)  
+---> Once you are in that folder type the command "npm install" , it will install all the dependencies
+---> After installation of all the dependencies type another command "npm start"
+---> After entering the command "npm start" you might need to wait for some little time
+---> After a little wait you can see the calculator app being rendered inside a browser window
+---> Please check the functionality by performing basic arithematic operations
+
+If any issue regarding the compilation process,
+   please let me know at "sidrameshpatil569@gmail.com" or +91-8152007238
