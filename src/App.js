@@ -71,7 +71,7 @@ class App extends React.Component {
 
   //This method returns the text color for the screen, the if the screenData is set to "Inavalid Expression" it returns "red" else "white"
   colorDetector = () => {
-    if (this.state.screenData == "Invalid Expression") {
+    if (this.state.screenData === "Invalid Expression") {
       return "red"
     }
     else {
