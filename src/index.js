@@ -17,4 +17,4 @@ ReactDOM.render(
 serviceWorker.unregister();
 
 
-// This is just testing..
+// This is just for testing
