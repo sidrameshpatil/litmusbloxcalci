@@ -1,3 +1,6 @@
+litmusBlox front end assignment
+Its functionally a simple calculator which performs basic arithmetic operations. But I have used css animations to improve the user experience. Used css grids to array the buttons of the calculator.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
